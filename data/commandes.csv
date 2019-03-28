@@ -7,9 +7,13 @@ pip install matplotlib,1
 pip install pyqt5,1
 pip install opencv-python,1
 pip install imutils,1
-pip install --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.12.0-py3-none-any.whl,1
 pip install keras,1
 pip install --upgrade pandas,1
 pip install seaborn,1
 pip install scikit-image,1
 pip install alphabet-detector,1
+pip install nltk,1
+pip install jupyter,1
+pip install gensim,1
+pip install Pillow,1
+pip install --upgrade tensorflow==1.12.0,1

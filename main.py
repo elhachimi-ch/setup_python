@@ -2,7 +2,7 @@ import setup as sp
 
 
 def main():
-    setup = sp.Setup(pip='pip3.6')
+    setup = sp.Setup()
     setup.start()
 
 
