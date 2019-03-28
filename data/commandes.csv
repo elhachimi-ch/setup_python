@@ -1,6 +1,7 @@
 commande,status
-python -m pip install --upgrade pip,1
-pip install --upgrade pip,1
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py,1
+python get-pip.py,1
+pip install -U pip,1
 pip install pip numpy,1
 pip install -U scikit-learn,1
 pip install matplotlib,1
@@ -16,4 +17,3 @@ pip install nltk,1
 pip install jupyter,1
 pip install gensim,1
 pip install Pillow,1
-pip install --upgrade tensorflow==1.12.0,1
