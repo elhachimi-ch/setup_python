@@ -2,9 +2,11 @@ import csv
 import os
 import re
 
+BASE_NAME = os.path.abspath('.')
+
 
 def read_commandes_list(delimiter=','):
-    with open('data/commandes.csv', 'r+', encoding='utf-8') as f:
+    with open(os.path.join(BASE_NAME, 'data/commandes.csv'), 'r+', encoding='utf-8') as f:
         reader = csv.reader(f, delimiter=delimiter)
         return list(reader)
 
@@ -42,29 +44,30 @@ class Setup:
     @staticmethod
     def add_command(new_command):
         new_command = [new_command, 0]
-        with open('data/commandes.csv', 'a+', newline='', encoding='utf-8') as file:
+        with open(os.path.join(BASE_NAME, 'data/commandes.csv'), 'a+', newline='', encoding='utf-8') as file:
             writer = csv.writer(file, delimiter=',')
             writer.writerow(new_command)
 
     def read_commandes_list(self, delimiter=','):
-        with open('data/commandes.csv', 'r+', encoding='utf-8') as f:
+        with open(os.path.join(BASE_NAME, 'data/commandes.csv'), 'r+', encoding='utf-8') as f:
             reader = csv.reader(f, delimiter=delimiter)
             self.set_commandes(list(reader))
 
-    def update_commandes_list(self, file_name='data/commandes.csv', delimiter=','):
+    def update_commandes_list(self, file_name=os.path.join(BASE_NAME, 'data/commandes.csv'), delimiter=','):
         with open(file_name, 'w+', newline='', encoding='utf-8') as f:
             writer = csv.writer(f, delimiter=delimiter)
             for p in self.get_commandes():
                 writer.writerow(p)
 
-    def start(self):
+    def start(self, updtae=False):
         commandes = list(self.get_commandes())
         for i in range(len(commandes)):
             os.system(commandes[i][0])
             commandes[i][1] = 1
-        self.__commandes.pop(0)
-        self.__commandes.insert(0, ['commande', 'status'])
-        self.update_commandes_list()
+        if updtae:
+            self.__commandes.pop(0)
+            self.__commandes.insert(0, ['commande', 'status'])
+            self.update_commandes_list()
         print("""
  _______   ______   .__   __.  _______ 
 |       \ /  __  \  |  \ |  | |   ____|
