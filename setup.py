@@ -16,14 +16,21 @@ def set_pip_version(o, pip):
 class Setup:
     __commandes = []
 
-    def __init__(self, pip='', python_version=''):
+    def __init__(self, pip='', python_version='', conda=False, conda_environement=''):
         self.read_commandes_list()
         commandes = self.get_commandes()
+
+        if conda:
+            for i in range(len(commandes)):
+                commandes[i][0] = re.sub('pip install', 'conda install --name '+conda_environement, commandes[i][0], 1)
+
         if len(python_version) != 0:
             commandes[1] = re.sub('python', 'python3.6', commandes[1][0])
+
         if len(pip) != 0:
             for i in range(len(commandes)):
                 commandes[i][0] = set_pip_version(commandes[i][0], pip)
+
         print("""
      _______. _______ .___________. __    __  .______   
     /       ||   ____||           ||  |  |  | |   _  \  
@@ -39,12 +46,12 @@ class Setup:
     def set_commandes(self, new_commandes_list):
         self.__commandes = new_commandes_list
 
-    @staticmethod
-    def add_command(new_command):
+    def add_command(self, new_command):
         new_command = [new_command, 0]
         with open('data/commandes.csv', 'a+', newline='', encoding='utf-8') as file:
             writer = csv.writer(file, delimiter=',')
             writer.writerow(new_command)
+        self.read_commandes_list()
 
     def read_commandes_list(self, delimiter=','):
         with open('data/commandes.csv', 'r+', encoding='utf-8') as f:
@@ -59,12 +66,11 @@ class Setup:
 
     def start(self):
         commandes = list(self.get_commandes())
-        for i in range(len(commandes)):
+        for i in range(1, len(commandes)):
             os.system(commandes[i][0])
             commandes[i][1] = 1
         self.__commandes.pop(0)
         self.__commandes.insert(0, ['commande', 'status'])
-        self.update_commandes_list()
         print("""
  _______   ______   .__   __.  _______ 
 |       \ /  __  \  |  \ |  | |   ____|
