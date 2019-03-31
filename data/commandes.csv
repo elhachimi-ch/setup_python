@@ -1,14 +1,23 @@
 commande,status
-python -m pip install --upgrade pip,1
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py,1
+python get-pip.py,1
+pip install -U pip,1
 pip install pip numpy,1
 pip install -U scikit-learn,1
 pip install matplotlib,1
 pip install pyqt5,1
 pip install opencv-python,1
 pip install imutils,1
+<<<<<<< HEAD
 pip install --upgrade --ignore-installed tensorflow==1.5,0
+=======
+>>>>>>> 8d3efd5296e0e5eb7b8ae01fcb45d9f34a52f790
 pip install keras,1
 pip install --upgrade pandas,1
 pip install seaborn,1
 pip install scikit-image,1
 pip install alphabet-detector,1
+pip install nltk,1
+pip install jupyter,1
+pip install gensim,1
+pip install Pillow,1

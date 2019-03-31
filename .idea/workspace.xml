@@ -424,9 +424,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+=======
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="95">
               <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
             </state>
@@ -438,6 +446,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="4" selection-start-column="4" selection-end-column="4" />
+=======
+            <state relative-caret-position="186">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+>>>>>>> b0519062cdc18c94136334984138e6c7b7c1a05d
+>>>>>>> 8d3efd5296e0e5eb7b8ae01fcb45d9f34a52f790
             </state>
           </provider>
         </entry>
@@ -445,8 +458,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1254">
               <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
+=======
+<<<<<<< HEAD
+            <state relative-caret-position="-1328">
+=======
+            <state relative-caret-position="105">
+>>>>>>> b0519062cdc18c94136334984138e6c7b7c1a05d
+              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+>>>>>>> 8d3efd5296e0e5eb7b8ae01fcb45d9f34a52f790
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -454,16 +476,36 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="false">
+=======
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/commandes.csv">
           <provider editor-type-id="csv-table-editor">
             <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
           </provider>
           <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="62">
+              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            </state>
+          </provider>
+=======
+      <file pinned="false" current-in-tab="true">
+>>>>>>> 8d3efd5296e0e5eb7b8ae01fcb45d9f34a52f790
+        <entry file="file://$PROJECT_DIR$/data/commandes.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+<<<<<<< HEAD
+          <provider selected="true" editor-type-id="csv-text-editor">
             <state relative-caret-position="247">
               <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
             </state>
           </provider>
+=======
+>>>>>>> b0519062cdc18c94136334984138e6c7b7c1a05d
+>>>>>>> 8d3efd5296e0e5eb7b8ae01fcb45d9f34a52f790
         </entry>
       </file>
     </leaf>
@@ -481,10 +523,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/data/commandes.csv" />
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+=======
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/data/commandes.csv" />
+        <option value="$PROJECT_DIR$/main.py" />
+=======
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/data/commandes.csv" />
+>>>>>>> b0519062cdc18c94136334984138e6c7b7c1a05d
+>>>>>>> 8d3efd5296e0e5eb7b8ae01fcb45d9f34a52f790
       </list>
     </option>
   </component>
@@ -601,20 +655,44 @@
       <workItem from="1552661554730" duration="6540000" />
       <workItem from="1552682436618" duration="65000" />
       <workItem from="1552684918898" duration="1991000" />
+<<<<<<< HEAD
       <workItem from="1552728008689" duration="3109000" />
       <workItem from="1552731251194" duration="2566000" />
       <workItem from="1554061609958" duration="142000" />
+=======
+<<<<<<< HEAD
+      <workItem from="1553503715722" duration="215000" />
+      <workItem from="1553504894560" duration="142000" />
+=======
+>>>>>>> b0519062cdc18c94136334984138e6c7b7c1a05d
+>>>>>>> 8d3efd5296e0e5eb7b8ae01fcb45d9f34a52f790
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="14413000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="8953000" />
+=======
+    <option name="totallyTimeSpent" value="8596000" />
+>>>>>>> b0519062cdc18c94136334984138e6c7b7c1a05d
+>>>>>>> 8d3efd5296e0e5eb7b8ae01fcb45d9f34a52f790
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13625154" />
+=======
+<<<<<<< HEAD
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2603834" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2550586" />
+>>>>>>> b0519062cdc18c94136334984138e6c7b7c1a05d
+>>>>>>> 8d3efd5296e0e5eb7b8ae01fcb45d9f34a52f790
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -643,20 +721,57 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/data/commandes.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="62">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1328">
+=======
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+>>>>>>> b0519062cdc18c94136334984138e6c7b7c1a05d
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+>>>>>>> 8d3efd5296e0e5eb7b8ae01fcb45d9f34a52f790
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1254">
           <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="217">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+=======
+        <state relative-caret-position="186">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+>>>>>>> 8d3efd5296e0e5eb7b8ae01fcb45d9f34a52f790
         </state>
       </provider>
     </entry>
@@ -676,6 +791,7 @@
           <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
+>>>>>>> b0519062cdc18c94136334984138e6c7b7c1a05d
     </entry>
   </component>
 </project>
