@@ -6,9 +6,8 @@ pip install matplotlib,1
 pip install pyqt5,1
 pip install opencv-python,1
 pip install imutils,1
-pip install https://files.pythonhosted.org/packages/29/39/f99185d39131b8333afcfe1dcdb0629c2ffc4ecfb0e4c14ca210d620e56c/tensorflow-2.0.0a0-cp36-cp36m-manylinux1_x86_64.whl
-pip install keras,1
 pip install --upgrade pandas,1
 pip install seaborn,1
 pip install scikit-image,1
 pip install alphabet-detector,1
+pip install keras,1
