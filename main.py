@@ -9,7 +9,7 @@ def main():
                         help='Did you need to update commandes file after finish?')
     args = parser.parse_args()
     print(type(args.mac))
-    setup = sp.Setup(python_version='python36', pip='pip3.6')
+    setup = sp.Setup()
     setup.start(mac=args.mac, updtae=args.update)
 
 
