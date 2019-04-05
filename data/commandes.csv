@@ -17,4 +17,4 @@ pip install gensim,1
 pip install Pillow,1
 pip3 install protobuf==3.4.0,1
 pip install --upgrade --ignore-installed tensorflow==1.5 --user,1
-pip install keras==2.2.4,1
+pip install keras,1
