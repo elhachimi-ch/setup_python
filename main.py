@@ -3,9 +3,6 @@ import argparse
 
 
 def main():
-    setup = sp.Setup()
-    setup.get_commandes()
-    setup.start()
     parser = argparse.ArgumentParser()
     parser.add_argument('-m', '--mac', type=bool, help='What is OS?', default=False)
     parser.add_argument('-u', '--update', type=bool, default=False,

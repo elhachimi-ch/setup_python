@@ -27,11 +27,13 @@ class Setup:
                 commandes[i][0] = re.sub('pip install', 'conda install --name '+conda_environement, commandes[i][0], 1)
 
         if len(python_version) != 0:
-            commandes[1] = re.sub('python', 'python3.6', commandes[1][0])
+            commandes[1] = [re.sub('python', python_version, commandes[1][0]), '1']
 
         if len(pip) != 0:
-            for i in range(len(commandes)):
+            for i in range(2, len(commandes)):
                 commandes[i][0] = set_pip_version(commandes[i][0], pip)
+
+        self.__commandes = commandes
 
         print("""
      _______. _______ .___________. __    __  .______   
@@ -68,6 +70,7 @@ class Setup:
 
     def start(self, updtae=False, mac=0):
         commandes = list(self.get_commandes())
+        print(commandes)
         for i in range(1, len(commandes)):
             os.system(commandes[i][0])
             commandes[i][1] = 1

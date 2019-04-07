@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8923c84b-284b-4ee7-8a27-5f849a80d954" name="Default Changelist" comment="">
+<<<<<<< HEAD
+=======
       <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/easy-install.pth" afterDir="false" />
@@ -404,12 +406,16 @@
       <change afterPath="$PROJECT_DIR$/venv/Scripts/xlwings32-0.11.8.dll" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Scripts/xlwings64-0.11.8.dll" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
+>>>>>>> e2d0633a933f03c96a479ab33c22098f958c8c91
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/setup_envronement.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/setup_envronement.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/commandes.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/commandes.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+<<<<<<< HEAD
+=======
       <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+>>>>>>> e2d0633a933f03c96a479ab33c22098f958c8c91
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -419,8 +425,12 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/setup_envronement$main.coverage" NAME="main Coverage Results" MODIFIED="1552689457482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+<<<<<<< HEAD
+    <SUITE FILE_PATH="coverage/setup_python$main.coverage" NAME="main Coverage Results" MODIFIED="1553385999613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+=======
     <SUITE FILE_PATH="coverage/setup_python$setup.coverage" NAME="setup Coverage Results" MODIFIED="1552731205242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/setup_python$main.coverage" NAME="main Coverage Results" MODIFIED="1552732552245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+>>>>>>> e2d0633a933f03c96a479ab33c22098f958c8c91
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -434,6 +444,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="68">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+=======
 <<<<<<< HEAD
             <state relative-caret-position="95">
               <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
@@ -472,6 +486,7 @@
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
+>>>>>>> e2d0633a933f03c96a479ab33c22098f958c8c91
             </state>
           </provider>
         </entry>
@@ -482,6 +497,16 @@
 <<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/commandes.csv">
+<<<<<<< HEAD
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            </state>
+          </provider>
+=======
           <provider editor-type-id="csv-table-editor">
             <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
           </provider>
@@ -506,6 +531,7 @@
 =======
 >>>>>>> b0519062cdc18c94136334984138e6c7b7c1a05d
 >>>>>>> 8d3efd5296e0e5eb7b8ae01fcb45d9f34a52f790
+>>>>>>> e2d0633a933f03c96a479ab33c22098f958c8c91
         </entry>
       </file>
     </leaf>
@@ -524,13 +550,17 @@
     <option name="CHANGED_PATHS">
       <list>
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/data/commandes.csv" />
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
 =======
 <<<<<<< HEAD
+>>>>>>> e2d0633a933f03c96a479ab33c22098f958c8c91
         <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/data/commandes.csv" />
         <option value="$PROJECT_DIR$/main.py" />
 =======
@@ -542,10 +572,18 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1364" />
+    <option name="height" value="726" />
+=======
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="22" />
     <option name="width" value="1700" />
     <option name="height" value="970" />
+>>>>>>> e2d0633a933f03c96a479ab33c22098f958c8c91
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -656,6 +694,10 @@
       <workItem from="1552682436618" duration="65000" />
       <workItem from="1552684918898" duration="1991000" />
 <<<<<<< HEAD
+      <workItem from="1553381145127" duration="64000" />
+      <workItem from="1553381238097" duration="3088000" />
+=======
+<<<<<<< HEAD
       <workItem from="1552728008689" duration="3109000" />
       <workItem from="1552731251194" duration="2566000" />
       <workItem from="1554061609958" duration="142000" />
@@ -666,10 +708,19 @@
 =======
 >>>>>>> b0519062cdc18c94136334984138e6c7b7c1a05d
 >>>>>>> 8d3efd5296e0e5eb7b8ae01fcb45d9f34a52f790
+>>>>>>> e2d0633a933f03c96a479ab33c22098f958c8c91
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="11748000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1" y="1" width="1364" height="726" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26533744" />
+=======
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="14413000" />
 =======
@@ -693,11 +744,16 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2550586" />
 >>>>>>> b0519062cdc18c94136334984138e6c7b7c1a05d
 >>>>>>> 8d3efd5296e0e5eb7b8ae01fcb45d9f34a52f790
+>>>>>>> e2d0633a933f03c96a479ab33c22098f958c8c91
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" x="658" y="119" width="659" height="521" id="Run" order="2" type="FLOATING" weight="0.43448275" />
+=======
       <window_info anchor="bottom" x="601" y="241" width="791" height="634" id="Run" order="2" type="FLOATING" weight="0.43448275" />
+>>>>>>> e2d0633a933f03c96a479ab33c22098f958c8c91
       <window_info anchor="bottom" id="Debug" order="3" weight="0.11264368" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -706,8 +762,13 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+<<<<<<< HEAD
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32996634" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+=======
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32949308" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32949308" />
+>>>>>>> e2d0633a933f03c96a479ab33c22098f958c8c91
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -744,9 +805,14 @@
 =======
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="182">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+=======
         <state relative-caret-position="105">
 >>>>>>> b0519062cdc18c94136334984138e6c7b7c1a05d
           <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+>>>>>>> e2d0633a933f03c96a479ab33c22098f958c8c91
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -756,6 +822,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="68">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+=======
 <<<<<<< HEAD
         <state relative-caret-position="1254">
           <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
@@ -772,16 +842,23 @@
         <state relative-caret-position="186">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
 >>>>>>> 8d3efd5296e0e5eb7b8ae01fcb45d9f34a52f790
+>>>>>>> e2d0633a933f03c96a479ab33c22098f958c8c91
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/commandes.csv">
+<<<<<<< HEAD
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+=======
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+>>>>>>> e2d0633a933f03c96a479ab33c22098f958c8c91
         </state>
       </provider>
     </entry>
@@ -791,7 +868,15 @@
           <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
+<<<<<<< HEAD
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+=======
 >>>>>>> b0519062cdc18c94136334984138e6c7b7c1a05d
+>>>>>>> e2d0633a933f03c96a479ab33c22098f958c8c91
     </entry>
   </component>
 </project>
