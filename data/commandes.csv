@@ -23,5 +23,3 @@ pip install jupyter,1
 pip install gensim,1
 pip install Pillow,1
 pip install protobuf==3.4.0,1
-pip install tensorflow==1.5.0,1
-pip install keras,1
