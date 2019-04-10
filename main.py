@@ -10,7 +10,6 @@ def main():
     parser.add_argument('-g', '--gpu', type=bool, default=False,
                         help='Did you want to install gpu version?')
     args = parser.parse_args()
-    print(type(args.mac))
     setup = sp.Setup(gpu=args.gpu)
     setup.start(mac=args.mac, updtae=args.update)
 

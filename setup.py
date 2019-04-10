@@ -23,8 +23,9 @@ class Setup:
         commandes = self.get_commandes()
 
         if gpu:
+            print("Mode GPU")
             for i in range(5, 12):
-                commandes[i][0] = re.sub('tensorflow', 'tensorflow-gpu ', commandes[i][0], 1)
+                commandes[i][0] = re.sub('tensorflow', 'tensorflow-gpu', commandes[i][0], 1)
 
         if conda:
             for i in range(len(commandes)):
