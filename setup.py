@@ -72,7 +72,7 @@ class Setup:
             for p in self.get_commandes():
                 writer.writerow(p)
 
-    def start(self, updtae=False, mac=0):
+    def start(self, updtae=False, mac=100):
         commandes = list(self.get_commandes())
         print(commandes)
 
@@ -84,10 +84,11 @@ class Setup:
         self.__commandes.insert(0, ['commande', 'status'])
 
         if mac == 1:
+            print("MAC")
             os.system('pip install https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.0.0-py3-none-any.whl')
-        else:
+        elif mac == 0:
+            print("Windows")
             os.system('pip install --upgrade --ignore-installed tensorflow==1.5')
-        os.system('rm -r get-pip.py')
         if updtae:
             self.__commandes.pop(0)
             self.__commandes.insert(0, ['commande', 'status'])
