@@ -6,8 +6,7 @@ pip install -U scikit-learn,1
 pip install matplotlib,1
 pip install pyqt5,1
 pip install opencv-python,1
-pip install imutils,1
-pip install --upgrade --ignore-installed tensorflow==1.5,0
+pip install imutils,1pip install --upgrade --ignore-installed tensorflow==1.5,1
 pip install keras,1
 pip install --upgrade pandas,1
 pip install seaborn,1
@@ -23,5 +22,3 @@ pip install jupyter,1
 pip install gensim,1
 pip install Pillow,1
 pip install protobuf==3.4.0,1
-pip install tensorflow==1.5.0,1
-pip install keras,1

@@ -18,9 +18,13 @@ def set_pip_version(o, pip):
 class Setup:
     __commandes = []
 
-    def __init__(self, pip='', python_version='', conda=False, conda_environement=''):
+    def __init__(self, pip='', python_version='', conda=False, conda_environement='', gpu=True):
         self.read_commandes_list()
         commandes = self.get_commandes()
+
+        if gpu:
+            for i in range(5, 12):
+                commandes[i][0] = re.sub('tensorflow', 'tensorflow-gpu ', commandes[i][0], 1)
 
         if conda:
             for i in range(len(commandes)):
@@ -71,6 +75,7 @@ class Setup:
     def start(self, updtae=False, mac=0):
         commandes = list(self.get_commandes())
         print(commandes)
+
         for i in range(1, len(commandes)):
             os.system(commandes[i][0])
             commandes[i][1] = 1
