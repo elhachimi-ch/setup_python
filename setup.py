@@ -84,12 +84,10 @@ class Setup:
         self.__commandes.pop(0)
         self.__commandes.insert(0, ['commande', 'status'])
 
-        if mac == 1:
+        if mac:
             print("MAC")
             os.system('pip install https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.0.0-py3-none-any.whl')
-        elif mac == 0:
-            print("Windows")
-            os.system('pip install --upgrade --ignore-installed tensorflow==1.5')
+
         if updtae:
             self.__commandes.pop(0)
             self.__commandes.insert(0, ['commande', 'status'])
