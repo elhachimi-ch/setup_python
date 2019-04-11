@@ -1,3 +1,3 @@
 # setup_python
 
-Setup and automate installing packages
+Setup Machine Learning Environement for python 3.6
