@@ -3,6 +3,7 @@ python data/get-pip.py,1
 pip install -U pip,1
 pip install pip numpy,1
 pip install -U scikit-learn,1
+pip install joblib,1
 pip install matplotlib,1
 pip install pyqt5,1
 pip install opencv-python,1
