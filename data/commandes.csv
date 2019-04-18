@@ -1,26 +1,26 @@
 commande,status
-python data/get-pip.py --user,1
-pip install -U pip --user,1
-pip install --upgrade setuptools --user,1
-pip install pip numpy --user,1
-pip install -U scikit-learn --user,1
-pip install matplotlib --user,1
-pip install pyqt5 --user,1
-pip install opencv-python --user,1
-pip install imutils --user,1
-pip install --upgrade --ignore-installed tensorflow==1.5 --user,1
-pip install keras --user,1
-pip install --upgrade pandas --user,1
-pip install seaborn --user,1
-pip install scikit-image --user,1
-pip install alphabet-detector --user,1
-pip install nltk --user,1
-pip install jupyter --user,1
-pip install gensim --user,1
-pip install Pillow --user,1
-pip install -U scikit-image --user,1
-pip install emoji --user,1
-pip install jupyter --user,1
-pip install gensim --user,1
-pip install django --user,1
-pip install protobuf==3.4.0 --user,1
+python data/get-pip.py ,1
+pip install -U pip ,1
+pip install --upgrade setuptools ,1
+pip install pip numpy ,1
+pip install -U scikit-learn ,1
+pip install matplotlib ,1
+pip install pyqt5 ,1
+pip install opencv-python ,1
+pip install imutils ,1
+pip install --upgrade --ignore-installed tensorflow==1.5 ,1
+pip install keras ,1
+pip install --upgrade pandas ,1
+pip install seaborn ,1
+pip install scikit-image ,1
+pip install alphabet-detector ,1
+pip install nltk ,1
+pip install jupyter ,1
+pip install gensim ,1
+pip install Pillow ,1
+pip install -U scikit-image ,1
+pip install emoji ,1
+pip install jupyter ,1
+pip install gensim ,1
+pip install django ,1
+pip install protobuf==3.4.0 ,1
