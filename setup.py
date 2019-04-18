@@ -18,16 +18,16 @@ def set_pip_version(o, pip):
 class Setup:
     __commandes = []
 
-    def __init__(self, pip='', python_version='', conda=False, conda_environement='', gpu=True):
+    def __init__(self, pip='', python_version='', conda=0, conda_environement='', gpu=1):
         self.read_commandes_list()
         commandes = self.get_commandes()
 
-        if gpu:
-            print("Mode GPU")
+        if gpu == 1:
+            print("**************************Mode GPU************************")
             for i in range(5, 12):
                 commandes[i][0] = re.sub('tensorflow', 'tensorflow-gpu', commandes[i][0], 1)
 
-        if conda:
+        if conda == 1:
             for i in range(len(commandes)):
                 commandes[i][0] = re.sub('pip install', 'conda install --name '+conda_environement, commandes[i][0], 1)
 
@@ -73,10 +73,9 @@ class Setup:
             for p in self.get_commandes():
                 writer.writerow(p)
 
-    def start(self, updtae=False, mac=100):
+    def start(self, updtae=0, mac=100):
         commandes = list(self.get_commandes())
         print(commandes)
-
         for i in range(1, len(commandes)):
             os.system(commandes[i][0])
             commandes[i][1] = 1
@@ -84,11 +83,11 @@ class Setup:
         self.__commandes.pop(0)
         self.__commandes.insert(0, ['commande', 'status'])
 
-        if mac:
+        if mac == 1:
             print("MAC")
             os.system('pip install https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.0.0-py3-none-any.whl')
 
-        if updtae:
+        if updtae == 1:
             self.__commandes.pop(0)
             self.__commandes.insert(0, ['commande', 'status'])
             self.update_commandes_list()
