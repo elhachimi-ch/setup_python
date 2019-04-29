@@ -22,5 +22,9 @@ pip install -U scikit-image,1
 pip install emoji,1
 pip install jupyter,1
 pip install gensim,1
-pip install django,1
+pip install django,2
 pip install protobuf==3.4.0,1
+pip install textblob,1
+pip install joblib,1
+pip install django-betterforms,2
+pip install xhtml2pdf,2
