@@ -28,3 +28,4 @@ pip install textblob,1
 pip install joblib,1
 pip install django-betterforms,2
 pip install xhtml2pdf,2
+pip install django mysqlclient,1
