@@ -30,3 +30,4 @@ pip install django-betterforms,2
 pip install xhtml2pdf,2
 pip install django mysqlclient,2
 pip install django-mysql,2
+pip install auto-py-to-exe,2
