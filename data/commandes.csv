@@ -28,3 +28,6 @@ pip install textblob,1
 pip install joblib,1
 pip install django-betterforms,2
 pip install --pre xhtml2pdf,2
+pip install mysqlclient,2
+pip install gunicorn,2
+pip install django-heroku,2
