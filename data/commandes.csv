@@ -32,3 +32,4 @@ pip install mysqlclient,2
 pip install gunicorn,2
 pip install django-heroku,2
 pip install unidecode,1
+pip install stringdist,1
