@@ -33,3 +33,5 @@ pip install gunicorn,2
 pip install django-heroku,2
 pip install unidecode,1
 pip install stringdist,1
+pip install boto3>=1.9.79,1
+pip install django-storages>=1.7.1,1
