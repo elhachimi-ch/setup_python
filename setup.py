@@ -18,7 +18,7 @@ def set_pip_version(o, pip):
 class Setup:
     __commandes = []
 
-    def __init__(self, pip='', python_version='', conda=1, conda_environement='topics', gpu=1):
+    def __init__(self, pip='', python_version='', conda=0, conda_environement='topics', gpu=0):
         self.read_commandes_list()
         commandes = self.get_commandes()
 

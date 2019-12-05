@@ -9,7 +9,7 @@ pip install pyqt5,1
 pip install opencv-python,1
 pip install imutils,1
 pip install --upgrade --ignore-installed tensorflow==1.5,1
-pip install keras,1
+pip install keras==2.1.5,1
 pip install --upgrade pandas,1
 pip install seaborn,1
 pip install scikit-image,1
