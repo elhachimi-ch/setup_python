@@ -37,3 +37,4 @@ pip install boto3>=1.9.79,1
 pip install django-storages>=1.7.1,1
 pip install django-progressive-web-app,1
 pip install django-seed,1
+pip install django-cors-headers,1
