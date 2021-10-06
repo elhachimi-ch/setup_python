@@ -1,8 +1,13 @@
-Requirement already satisfied: boto3 in c:\users\elhac\desktop\python\lib\site-packages (1.10.13)
-Requirement already satisfied: botocore<1.14.0,>=1.13.13 in c:\users\elhac\desktop\python\lib\site-packages (from boto3) (1.13.13)
-Requirement already satisfied: jmespath<1.0.0,>=0.7.1 in c:\users\elhac\desktop\python\lib\site-packages (from boto3) (0.9.4)
-Requirement already satisfied: s3transfer<0.3.0,>=0.2.0 in c:\users\elhac\desktop\python\lib\site-packages (from boto3) (0.2.1)
-Requirement already satisfied: python-dateutil<2.8.1,>=2.1; python_version >= "2.7" in c:\users\elhac\desktop\python\lib\site-packages (from botocore<1.14.0,>=1.13.13->boto3) (2.8.0)
-Requirement already satisfied: docutils<0.16,>=0.10 in c:\users\elhac\desktop\python\lib\site-packages (from botocore<1.14.0,>=1.13.13->boto3) (0.15.2)
-Requirement already satisfied: urllib3<1.26,>=1.20; python_version >= "3.4" in c:\users\elhac\desktop\python\lib\site-packages (from botocore<1.14.0,>=1.13.13->boto3) (1.25.6)
-Requirement already satisfied: six>=1.5 in c:\users\elhac\appdata\roaming\python\python36\site-packages (from python-dateutil<2.8.1,>=2.1; python_version >= "2.7"->botocore<1.14.0,>=1.13.13->boto3) (1.13.0)
+Collecting boto3
+  Using cached boto3-1.18.54-py3-none-any.whl (131 kB)
+Collecting s3transfer<0.6.0,>=0.5.0
+  Using cached s3transfer-0.5.0-py3-none-any.whl (79 kB)
+Collecting jmespath<1.0.0,>=0.7.1
+  Using cached jmespath-0.10.0-py2.py3-none-any.whl (24 kB)
+Collecting botocore<1.22.0,>=1.21.54
+  Using cached botocore-1.21.54-py3-none-any.whl (8.0 MB)
+Requirement already satisfied: python-dateutil<3.0.0,>=2.1 in e:\python\lib\site-packages (from botocore<1.22.0,>=1.21.54->boto3) (2.8.2)
+Requirement already satisfied: urllib3<1.27,>=1.25.4 in e:\python\lib\site-packages (from botocore<1.22.0,>=1.21.54->boto3) (1.26.7)
+Requirement already satisfied: six>=1.5 in e:\python\lib\site-packages (from python-dateutil<3.0.0,>=2.1->botocore<1.22.0,>=1.21.54->boto3) (1.16.0)
+Installing collected packages: jmespath, botocore, s3transfer, boto3
+Successfully installed boto3-1.18.54 botocore-1.21.54 jmespath-0.10.0 s3transfer-0.5.0

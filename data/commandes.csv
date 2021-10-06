@@ -9,7 +9,7 @@ pip install pyqt5,1
 pip install opencv-python,1
 pip install imutils,1
 pip install --upgrade --ignore-installed tensorflow==1.5,1
-pip install keras==2.1.5,1
+pip install keras==2.2.1,1
 pip install --upgrade pandas,1
 pip install seaborn,1
 pip install scikit-image,1
@@ -26,7 +26,6 @@ pip install django,2
 pip install protobuf==3.4.0,1
 pip install textblob,1
 pip install joblib,1
-pip install django-betterforms,2
 pip install --pre xhtml2pdf,2
 pip install mysqlclient,2
 pip install gunicorn,2
@@ -38,3 +37,11 @@ pip install django-storages>=1.7.1,1
 pip install django-progressive-web-app,1
 pip install django-seed,1
 pip install django-cors-headers,1
+pip install jinja2==3.0.0.rc2,1
+pip install xgboost,1
+pip install plotly,1
+pip install rasterio,1
+pip install pycountry_convert,1
+pip install tashaphyne,1
+pip install wordcloud,1
+pip install time_series_generator,1
