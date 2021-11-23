@@ -44,4 +44,5 @@ pip install pycountry_convert,1
 pip install tashaphyne,1
 pip install wordcloud,1
 pip install time_series_generator,1
-pip install rasterio,1
+pip install contextily,1
+pip install folium,1
